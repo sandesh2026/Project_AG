@@ -21,7 +21,7 @@ while(rs.next()){
 out.print("<tr><td><a href='#' name='"+rs.getString(1)+"' onmouseover='javascript:viewAll(this.name)'>"+rs.getString(1)+"</a></td>");
 out.print("<td>"+rs.getString(2)+"</td>");
 out.print("<td>"+rs.getString(7)+"</td>");
-out.print("</tr>");
+//out.print("</tr>");
 }
 out.print("</table>");
 con.close();
