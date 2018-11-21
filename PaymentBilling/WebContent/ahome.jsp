@@ -87,7 +87,7 @@ request.setAttribute("notlogin_msg","Sorry,Please do Login first");
 <h3 style="color: navy;" align="center"><B>Consultant:-   JavaTpoint</B></h3>
 <div id="box">
 <%
-if(request.getAttribute("msg")!=null){
+if(request.getAttribute("msg")!=null){kk
 String msg=(String)request.getAttribute("msg");
 out.print("<font style='color: navy'><B>");
 out.print(msg);
